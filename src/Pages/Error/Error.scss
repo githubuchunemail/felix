@@ -1,0 +1,28 @@
+.error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    .buttons {
+        display: flex;
+        gap: 1rem;
+
+        button{
+            width: 240px;
+            border: 1px solid #6200EE;
+            background: none;
+            color: #6200EE;
+
+            &:first-child{
+                background-color: #6200EE;
+                color: #FEFEFE;
+
+                &:hover {
+                    color: #FEFEFE;
+                }
+            }
+        }
+    }
+}

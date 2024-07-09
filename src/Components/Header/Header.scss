@@ -1,0 +1,59 @@
+header {
+    width: 100%;
+    position: sticky;
+
+    nav {
+        max-width: 1240px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+
+        ul {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            list-style: none;
+
+            li {
+                a {
+                    text-decoration: none;
+                }
+
+                img {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                }
+            }
+
+            .logo {
+                width: 40px;
+                height: 40px;
+                background-color: blue;
+                color: white;
+                display: inline-block;
+                padding: 10px;
+                font-size: 20px;
+                border-radius: 50%;
+                text-align: center;
+                vertical-align: middle;
+                cursor: pointer;
+                text-transform: uppercase;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            svg {
+                fill: white;
+            }
+
+            input {
+                background: none;
+                border: none;
+                outline: none;
+                color: white;
+                margin-left: 10px;
+            }
+        }
+    }
+}

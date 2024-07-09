@@ -1,0 +1,33 @@
+.books {
+  width: 30%;
+  box-shadow: 0 0 8px gray;
+  padding: 1.5rem;
+  border-radius: 15px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+
+  .books__buttons {
+    position: absolute;
+    right: -30px;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    height: 100%;
+    top: 0;
+    justify-content: center;
+    transform: scale(0) translate(-15px);
+    transition-duration: 0.3s;
+
+    &:hover {
+      transform: scale(1) translate(10px);
+    }
+  }
+
+  &:hover .books__buttons {
+    transform: scale(1) translate(10px);
+  }
+}
